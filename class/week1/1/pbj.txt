@@ -1,0 +1,23 @@
+open bread
+open jars, put lids on table
+until everyone has a sandwich || !(bread left)
+  take out 2 slices
+  place on table side by side
+  pick up knife
+  insert knife in pb w/ hand on knife
+  put pb on knife
+  until satisfied
+    spread on right side
+    get more pb
+  end
+  jam_type = get jam type from user
+  if jam_type == apricot
+    spread apricot
+  elsif jam_type is raspberry
+    spread raspberry
+  else
+    mock user
+  end
+  slam bread together
+  give to student
+end
